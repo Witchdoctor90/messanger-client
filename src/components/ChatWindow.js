@@ -8,7 +8,7 @@ const ChatWindow = (props) => {
             <Message
             key={Date.now() * Math.random()}
             user={m.user}
-            message={m.body}/>);
+            body={m.body}/>);
 
     return (
         <div>

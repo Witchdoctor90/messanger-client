@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Chat from './components/Chat'
 
-function App() {
 
+const App = () => {
 
   return (
       <div style={{ margin: '0 30%' }}>
